@@ -1,0 +1,12 @@
+{   'ARCHITECTURE': {   'activations': ('relu', 'relu', 'relu'),
+                        'hyperopt': {   'activations': (   'relu',
+                                                           'relu',
+                                                           'relu'),
+                                        'nbunits': (354, 60)},
+                        'input_dim': (28, 28),
+                        'load_data': 'data_loaders.load_data_whole',
+                        'nbunits': (354, 60),
+                        'output_dim': (10,),
+                        'preprocessing': ('preprocessing.mean_std_scaler',),
+                        'type': 'build_layers.mlp'},
+    'LEARNER': {   'alpha': 0.0033781290705789716}}

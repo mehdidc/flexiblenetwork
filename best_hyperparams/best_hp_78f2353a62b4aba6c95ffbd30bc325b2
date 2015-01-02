@@ -1,0 +1,12 @@
+{   'ARCHITECTURE': {   'activations': ('tanh', 'tanh', 'tanh'),
+                        'hyperopt': {   'activations': (   'tanh',
+                                                           'tanh',
+                                                           'tanh'),
+                                        'nbunits': (226, 157)},
+                        'input_dim': (28, 28),
+                        'load_data': 'data_loaders.load_data_whole',
+                        'nbunits': (226, 157),
+                        'output_dim': (10,),
+                        'preprocessing': ('preprocessing.mean_std_scaler',),
+                        'type': 'build_layers.mlp'},
+    'LEARNER': {   'alpha': 0.0017828863450163595}}
